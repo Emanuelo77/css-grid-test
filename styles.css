@@ -15,22 +15,26 @@
 
 .one{
     background-color: chartreuse   ;
-    grid-template-columns: span1;
-    order: 1;
+    
 }   
 .two{
     background-color: chocolate;
-    grid-column: span 2;
-    grid-row: span2;
-    order: 2;
+   
 
 }
 
 .three{
     background-color: aqua;
-    grid-column: span3; 
-    order: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
 }
 .four{
     order: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
