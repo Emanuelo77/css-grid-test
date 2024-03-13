@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+}
+
+
+
+.container {
+    height: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
+.Item{
+    padding: 30px;
+    font-size: 30px;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
